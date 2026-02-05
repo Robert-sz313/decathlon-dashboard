@@ -5,7 +5,7 @@ import streamlit as st
 # =========================
 # 1. Wczytywanie sports.csv
 # =========================
-@st.cache_data
+# @st.cache_data
 def load_sports(path="data/sports.csv"):
     df = pd.read_csv(path)
 
@@ -28,7 +28,7 @@ def load_sports(path="data/sports.csv"):
 # =========================
 # 2. Wczytywanie customer_orders.csv
 # =========================
-@st.cache_data
+# @st.cache_data
 def load_customer_orders(path="data/customer_orders.csv"):
     df = pd.read_csv(path)
     df["customer_id"] = pd.to_numeric(df["customer_id"], errors="coerce")
@@ -44,7 +44,7 @@ def load_customer_orders(path="data/customer_orders.csv"):
 # =========================
 # 3. Wczytywanie orders.csv
 # =========================
-@st.cache_data
+# @st.cache_data
 def load_orders(path="data/orders.csv"):
     df = pd.read_csv(path)
 
