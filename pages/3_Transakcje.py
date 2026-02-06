@@ -64,12 +64,12 @@ fig_low.update_layout(
     title_font_size=22,
     xaxis=dict(
         title="Wartość zamówienia [zł]",
-        title_font=dict(size=16, family="Arial", color="white"),
+        title_font=dict(size=16, family="Arial"),
         tickfont=dict(size=14)
     ),
     yaxis=dict(
         title="Liczba zamówień",
-        title_font=dict(size=16, family="Arial", color="white"),
+        title_font=dict(size=16, family="Arial"),
         tickfont=dict(size=14)
     ),
     margin=dict(l=80, r=50, t=80, b=80)  # zwiększamy marginesy, żeby tytuły osi się zmieściły
@@ -111,12 +111,12 @@ fig_high.update_layout(
     title_font_size=22,
     xaxis=dict(
         title="Wartość zamówienia [zł]",
-        title_font=dict(size=16, family="Arial", color="white"),
+        title_font=dict(size=16, family="Arial"),
         tickfont=dict(size=14)
     ),
     yaxis=dict(
         title="Liczba zamówień",
-        title_font=dict(size=16, family="Arial", color="white"),
+        title_font=dict(size=16, family="Arial"),
         tickfont=dict(size=14)
     ),
     margin=dict(l=80, r=50, t=80, b=80)  # zwiększamy marginesy, żeby tytuły osi się zmieściły
