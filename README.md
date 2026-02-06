@@ -15,4 +15,4 @@ Interaktywny dashboard analityczny zbudowany w Streamlit.
 - Plotly
 
 ## Demo
-👉 https://twoj-link.streamlit.app
+👉https://decathlon-dashboard-r-szymko.streamlit.app/
